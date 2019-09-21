@@ -33,24 +33,37 @@
     "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css"
             ],
             "scripts": [
+
+               // "node_modules/jquery/dist/jquery.min.js",
+              
               // "src/assets/plugins/js/jquery.min.js",
-              // "src/assets/plugins/js/bootstrap.min.js",
+              "src/assets/plugins/js/bootstrap.min.js",
               "src/assets/plugins/js/viewportchecker.js",
               "src/assets/plugins/js/bootsnav.js",
-              // "src/assets/plugins/js/slick.min.js",
               "src/assets/plugins/js/jquery.nice-select.min.js",
               "src/assets/plugins/js/jquery.fancybox.min.js",
               "src/assets/plugins/js/jquery.downCount.js",
               "src/assets/plugins/js/freshslider.1.0.0.js",
               "src/assets/plugins/js/moment.min.js",
               "src/assets/plugins/js/daterangepicker.js",
-              // "src/assets/plugins/js/wysihtml5-0.3.0.js",
-              // "src/assets/plugins/js/bootstrap-wysihtml5.js",
+              "src/assets/plugins/js/wysihtml5-0.3.0.js",
+              "src/assets/plugins/js/bootstrap-wysihtml5.js",
               "src/assets/plugins/js/jquery.slimscroll.min.js",
               "src/assets/plugins/js/jquery.metisMenu.js",
               "src/assets/plugins/js/jquery.easing.min.js",
-              "src/assets/js/custom.js"
-//               "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/custom.js",
+              "src/assets/themekit/scripts/main.js",
+
+ // <link rel="stylesheet" href="themekit/media/icons/iconsmind/line-icons.min.css">
+       "src/assets/themekit/scripts/parallax.min.js",
+       "src/assets/themekit/scripts/glide.min.js",
+       "src/assets/themekit/scripts/progress.js",
+       "src/assets/themekit/scripts/tab-accordion.js",
+       "src/assets/themekit/scripts/magnific-popup.min.js",
+       "src/assets/themekit/scripts/pagination.min.js",
+       "src/assets/themekit/scripts/contact-form/contact-form.js"
+//            
+  
 //    "node_modules/slick-carousel/slick/slick.min.js"
             ]
           },

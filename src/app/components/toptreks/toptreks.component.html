@@ -1,7 +1,37 @@
 <main>
 	 <section class="section-base section-color">
             <div class="container">
-                <owl-carousel-o [options]="customOptions">
+
+ <ul class="slider" data-options="type:carousel,arrows:true,perView:3,perViewLg:2,perViewMd:1,gap:30,controls:out">
+                    <li  *ngFor="let tix of tixs">
+                        <div class="cnt-box cnt-box-info boxed text-uppercase" data-href="treks-single.html">
+                            <div class="extra-field">From ${{tix.price}}</div>
+                            <a href="treks-single.html" class="img-box"><img src="assets/media/image-5.jpg" alt="" /></a>
+                            <div class="caption">
+                                <h2>{{tix.poductName}}</h2>
+                                <div class="cnt-info">
+                                    <div><span>Days</span><span>{{tix.days}}</span></div>
+                                    <div><span>Group size</span><span>{{tix.groupSize}}</span></div>
+                                    <div><span>Difficulty</span><span>{{tix.dificulty}}</span></div>
+                                </div>
+                                <p>
+                                   {{tix.description}}
+                                </p>
+                                <div class="bottom-info">
+                                    {{tix.address}}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+         
+                </ul>
+
+            <!-- --------------------------------
+            INICIO CAROUSEL FUNCIONAL
+            -------------------------------- -->
+
+
+                <!-- <owl-carousel-o [options]="customOptions">
                             <ng-template carouselSlide *ngFor="let tix of tixs">
                                 <div class="list-slider">
                                     <div class="cnt-box cnt-box-info boxed text-uppercase" data-href="treks-single.html">
@@ -27,7 +57,14 @@
                                     </div>
                                </div>
                             </ng-template>  
-                        </owl-carousel-o>
+                        </owl-carousel-o> -->
+
+
+<!--             --------------------------------
+            FIN CAROUSEL FUNCIONAL
+            --------------------------------
+ -->
+
                 <!-- <ul class="slider" data-options="type:carousel,arrows:true,perView:3,perViewLg:2,perViewMd:1,gap:30,controls:out">
                     <li>
                         <div class="cnt-box cnt-box-info boxed text-uppercase" data-href="treks-single.html">
