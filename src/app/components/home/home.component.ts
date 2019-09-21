@@ -13,8 +13,8 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-// $.getScript('assets/themekit/scripts/jquery.min.js');
-//	  $.getScript('assets/themekit/scripts/glide.min.js');
+ // $.getScript('assets/themekit/scripts/jquery.min.js');
+ // $.getScript('assets/themekit/scripts/glide.min.js');
 	  }
   }
 

@@ -88,11 +88,11 @@ import { TreksliderComponent } from './components/trekslider/trekslider.componen
 import { TreksportComponent } from './components/treksport/treksport.component';
 
 
-//import * as $ from 'jquery';
+// import * as $ from 'jquery';
 
-window["$"] = $;
-window["jQuery"] = $;
-
+// window["$"] = $;
+// window["jQuery"] = $;
+// declare var $: any;
 
 @NgModule({
 

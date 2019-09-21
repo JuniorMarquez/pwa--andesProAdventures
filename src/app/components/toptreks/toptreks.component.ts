@@ -3,6 +3,8 @@ import {DataApiService} from '../../services/data-api.service';
 import { TixInterface } from '../../models/tix-interface'; 
 import { CarouselModule } from 'ngx-owl-carousel-o';
 
+
+declare var $: any;
 @Component({
   selector: 'app-toptreks',
   templateUrl: './toptreks.component.html',
@@ -49,6 +51,8 @@ public tixs:TixInterface;
 
 
   ngOnInit() {
+ // $.getScript('assets/themekit/scripts/jquery.min.js');
+ //   $.getScript('assets/themekit/scripts/glide.min.js');
   	 this.getAllTixs();
    		//this.filter();
   		//$.getScript('assets/js/collage.js');
